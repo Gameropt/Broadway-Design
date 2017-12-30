@@ -9,9 +9,16 @@ h1{
 }
 .Bild{
 background-image:url("C:/Users/Lars/Documents/GitHub/Broadway-Design/resources/the-flatiron-building.png");
+color:white;
+}
+.Bild2{
+background-image:url("C:/Users/Lars/Documents/GitHub/Broadway-Design/resources/the-flatiron-building.png");
+color:white;
+font-size: 23px;
+font-family: Helvetica;
+font-weight: bold;#
 }
 p{
-  color:white;
   font-family: Helvetica;
   font-size: 18px;
 }
@@ -28,4 +35,15 @@ h3{
 p{
   font-family: Helvetica;
   font-size: 14px;
+}
+.Ende{
+  text-align: left !important;
+  color: white;
+  background-color: dimgray;
+}
+.End{
+  font-family: Helvetica;
+  font-size: 11px;
+  color: white;
+  background-color: dimgray;
 }
