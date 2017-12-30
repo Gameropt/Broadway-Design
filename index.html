@@ -6,13 +6,13 @@
   <body>
     <div class="Bild">
     <h1>Broadway Design</h1>
-      <p href="#">Home</p>
-        <p href="#">Process</p>
-          <p href="#">Work</p>
-            <p href="#">Team</p>
-              <p href="#">Contact</p>
+      <p><a class="btn-nav" href="#">Home</a></p>
+        <p><a class="btn-nav" href="#process">Process</a></p>
+          <p><a class="btn-nav" href="#work">Work</a></p>
+            <p><a class="btn-nav" href="#team">Team</a></p>
+              <p><a class="btn-nav" href="#contact">Contact</a></p>
     </div>
-    <h2>Our Process</h2>
+    <h2 id="process">Our Process</h2>
     <img src="./resources/identify.svg"/>
     <h3>Identify</h3>
     <p>We focus on the most important details.</p>
@@ -23,17 +23,22 @@
     <p>We put erverything we have into our work.</p>
 
     <h2 class="Bild2">Designed in New York</h2>
-    <h3>Portfolio</h3>
+    <h3 id="work">Portfolio</h3>
     <p>Coming Soon</p>
-    <h3>Team</h3>
+    <h3 id="team">Team</h3>
     <p>We're Hiring!</p>
-    <h3>Contact</h3>
+    <h3 id="contact">Contact</h3>
     <p>Phone:(555)-555-55555</p>
     <p>E-mail:test@example.com</p>
     <p>Twitter: @test</p>
 
     <div class="Ende">
-      <p><span class="End">&copy;Broadway 2016</span><span href="#"> Home<span><span href="#"> About<span><span href="#"> Work<span> <span href="#">Team<span> <span href="#">Contact<span></p>
+      <p><span class="End">&copy;Broadway 2016</span>
+        <a class="btn-nav" href="#"> Home</a>
+        <a class="btn-nav" href="#about">About</a>
+        <a class="btn-nav" href="#work"> Work</a>
+         <a class="btn-nav" href="#team">Team</a>
+         <a class="btn-nav" href="#contact">Contact</a></p>
     </div>
   </body>
 </html>
